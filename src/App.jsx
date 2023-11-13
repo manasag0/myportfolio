@@ -1,6 +1,6 @@
 
 import './App.css'
-import skills from  './components/Skills.js'
+// import skills from  './components/Skills.js'
 function App() {
 
 
