@@ -1,14 +1,13 @@
 
 import './App.css'
+import Layout from './Layout'
 // import skills from  './components/Skills.js'
 function App() {
 
 
   return (
     <>
-     <h1>Hello I am Manasa</h1>
-     <p>Software Developer</p>
-    <button>My Skills</button>
+    <Layout />
     </>
   )
 }
