@@ -1,13 +1,16 @@
 import {} from 'react'
-import {Outlet} from 'react-router-dom'
+// import {Outlet} from 'react-router-dom'
 import Header from './components/headers/Header'
 import Footer from './components/footers/Footer'
+import Home from './components/home/Home'
+import Skills from './components/skills'
 function Layout() {
   return (
     <div>
       <Header />
-      <Outlet />
+      <Home />
       <Footer />
+      <Skills />
     </div>
   )
 }
