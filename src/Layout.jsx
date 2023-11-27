@@ -3,7 +3,7 @@ import {} from 'react'
 import Header from './components/headers/Header'
 import Footer from './components/footers/Footer'
 import Home from './components/home/Home'
-import Skills from './components/skills'
+import Skills from './components/Skills'
 function Layout() {
   return (
     <div>
