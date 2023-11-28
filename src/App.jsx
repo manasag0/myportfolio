@@ -1,13 +1,12 @@
 
 import './App.css'
-import Layout from './Layout'
-// import skills from  './components/Skills.js'
+
 function App() {
 
 
   return (
     <>
-    <Layout />
+      <h1>Hello world!!</h1>
     </>
   )
 }
