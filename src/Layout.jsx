@@ -7,11 +7,11 @@ import Skills from './components/Skills'
 function Layout() {
   return (
     <div>
-      <h1>On progress!!</h1>
-      <Header />
+      <h1>Page under maintaince!!</h1>
+      {/* <Header />
       <Home />
       <Footer />
-      <Skills />
+      <Skills /> */}
     </div>
   )
 }
