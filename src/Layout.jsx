@@ -7,6 +7,7 @@ import Skills from './components/Skills'
 function Layout() {
   return (
     <div>
+      <h1>On progress!!</h1>
       <Header />
       <Home />
       <Footer />
