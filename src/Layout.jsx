@@ -8,7 +8,7 @@ import './layout.css'
 function Layout() {
   return (
     <div className='container '>
-      <h1>Page under progrss!!</h1>
+      <h1>Page under progress!!</h1>
       {/* <Header />
       <Home />
       <Footer />
