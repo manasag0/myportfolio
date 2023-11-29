@@ -1,15 +1,16 @@
 
 import './App.css'
+import Main from './components/Main'
 import Sidenav from './components/Sidenav'
 
 function App() {
 
 
   return (
-    <div className="h-full text-white m-5 ">
+    <div className="h-full m-5 ">
       <div>
       <Sidenav />
-      <h1>Hello world!!</h1>
+      <Main />
       </div>
       </div>
   )
