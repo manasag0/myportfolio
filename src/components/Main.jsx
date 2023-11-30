@@ -27,7 +27,7 @@ function Main() {
     /></h2>
             <div className='flex w-full pt-10 max-w-[200px] justify-between'>
         
-        <FaGithub  className='cursor-pointer' size={20} />
+        <FaGithub  className='cursor-pointer' size={20}><a href="https://github.com/manasag0" target=''></a></FaGithub> 
         <FaLinkedin className='cursor-pointer'size={20} />
         <FaTwitter  className='cursor-pointer' size={20}/>
         <FaUser className='cursor-pointer'size={20} />
