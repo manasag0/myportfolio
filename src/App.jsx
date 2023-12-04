@@ -1,5 +1,5 @@
 
-import './App.css'
+import About from './components/About'
 import Main from './components/Main'
 import Sidenav from './components/Sidenav'
 
@@ -7,10 +7,11 @@ function App() {
 
 
   return (
-    <div className="h-full m-5 ">
+    <div className="">
       <div>
       <Sidenav />
       <Main />
+      <About />
       </div>
       </div>
   )
