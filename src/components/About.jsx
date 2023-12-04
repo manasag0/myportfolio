@@ -1,13 +1,10 @@
-import AboutItem from "./AboutItem"
-
-
 export default function About() {
 
 const data={
 
   headline:"I am a Web Designer and Developer",
   subpera:`"Driven by a passion for creating innovative and user-centered digital experiences."`,
-  content: `Passionate Web Developer with a Non-Traditional Path
+  content: `Passionate Web Developer with a Non-Traditional Path.
   
   I am a full stack web developer with a passion for creating innovative and user-friendly web solutions. I have consistently demonstrated my ability to learn quickly, adapt to new technologies, and apply my knowledge to solve real-world problems.
   
@@ -20,13 +17,17 @@ The hands-on experience allowed me to hone my skills, collaborate with experienc
   return (
     <div id='about' className=" text-white" style={{ backgroundImage: "url('https://wallpaperaccess.com/full/4962374.jpg')", backgroundRepeat: 'no-repeat' ,backgroundOpacity: '10%',backgroundSize: 'cover' }}>
 
-      <div className=" bg-white/60 flex flex-col justify-center text-black text-center w-full h-screen">
-   
-      <h1 className=" text-[50px] text-center ">About Me</h1>  
-    <div className="text-[26px]  p-auto"> {data.headline}  </div>
-    <div className="  text-[20px] p-auto"> {data.subpera} </div>
-   <div className=" m-10 shadow-md p-8 text-[20px]  leading-relaxed ">{data.content} </div>
+      <div className="  bg-white/50 grid grid-cols-1 gap-8 p-6 sm:p-10 md:grid-cols-2 text-black h-screen m-0">
+      <div className="text-center flex flex-col justify-center">
+          <h1 className="text-4xl sm:text-5xl sd:text-6xl m-10 sm-3">About Me</h1>
+          <div className="text-lg sm:text-xl md:text-2xl">{data.headline}</div>
+          <div className=" sm:text-base sm-10 m-10 ::first-letter-large">{data.subpera}</div>
+        </div>
+        <div className="text-base sm:text-lg overflow-auto flex items-center justify-center">
+          <div className="shadow-md p-4 sm:p-6">{data.content}</div>
+        </div>
     </div>
+    
     </div>
   )
 }
