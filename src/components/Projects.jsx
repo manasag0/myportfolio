@@ -4,8 +4,8 @@ import Project2 from '../assets/Project2.png';
 import Project3 from '../assets/Project3.png';
 import Project4 from '../assets/Project4.png';
 function Projects() {
-  return (
-    <div id='projects' className='h-full w-screen max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
+  return ( 
+    <div id='projects' style={{backgroundImage:"https://wallup.net/wp-content/uploads/2016/02/238526-moss-ladders-blurred-depth_of_field-nature.jpg", backgroundRepeat:"no-repeat" }} className='bg-black/50 h-full w-screen max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
       <div className=' pb-8'>
       <h1 className='text-4xl font-bold text-center text-Black-100 '>Projects</h1>
       </div>
