@@ -12,7 +12,7 @@ function Main() {
             <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-center items-center'>
           
             <h1 className='sm:text-7xl text-4xl font-bold m-5'>Hi, I am Manasa</h1>
-            <h2 className='flex sm:text-3xl text-2xl pt-4'> <TypeAnimation
+            <h2 className='flex sm:text-2xl text-1xl pt-3'> <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
         'a Developer',
@@ -23,8 +23,8 @@ function Main() {
         2000,
       ]}
       wrapper="span"
-      speed={50}
-      style={{ fontSize: '2em', display: 'inline-block' }}
+      speed={40}
+      style={{ fontSize: '1.5em', display: 'inline-block' }}
       repeat={Infinity}
     /></h2>
             <div className='flex w-full pt-10 max-w-[200px] justify-between'>
