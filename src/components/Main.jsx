@@ -11,7 +11,7 @@ function Main() {
         <div className='w-full h-screen absolute  top-0 left-0 bg-white/50'>
             <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-center items-center'>
           
-            <h1 className='sm:text-7xl text-4xl font-bold m-5'>Hi, I am Manasa</h1>
+            <h1 className='sm:text-7xl text-4xl font-bold m-5 text-center'>Hi, I am Manasa</h1>
             <h2 className='flex sm:text-2xl text-1xl pt-3'> <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
