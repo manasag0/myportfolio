@@ -5,7 +5,7 @@ import Project3 from '../assets/Project3.png';
 import Project4 from '../assets/Project4.png';
 function Projects() {
   return ( 
-    <div id='projects'  className='bg-black/50 h-full w-screen max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
+    <div id='projects'  className='bg-black/50 h-full m-auto md:pl-20 p-4 py-16'>
       <div className=' pb-8'>
       <h1 className='text-4xl font-bold text-center text-Black-100 '>Projects</h1>
       </div>

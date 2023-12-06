@@ -33,7 +33,7 @@ const Contect = () => {
                 </div>
                 <div className="flex flex-col py-2">
                     <label className="text-sm py-2" htmlFor="">Message</label>
-                    <textarea className="border-2 rounded-lg p-3 border-black/50" name="textarea" id="" cols="" rows="8"></textarea>
+                    <textarea className="border-2 rounded-lg p-3 border-black/50" name="textarea" id="" cols="" rows="6"></textarea>
                 </div>
                 <div className="flex justify-center">
                     <button className="bg-black/50 mt-4 p-4 text-black rounded-md text-[20px]  md:w-auto  cursor-pointer ">Contact from here</button>
