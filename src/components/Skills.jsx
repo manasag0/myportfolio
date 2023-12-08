@@ -60,8 +60,8 @@ const Skills = () => {
 
             <div className="text-center mt-8">
           <a
-            href="src/Resume/Manasa's Resume (5).pdf"  // Replace with the actual path to your CV file
-            download="Manasa's Resume (5).pdf"      // Optional: Specify the filename when downloaded
+            href="src/Resume/Manasa'sResume.pdf"  // Replace with the actual path to your CV file
+            download="Manasa'sResume.pdf"      // Optional: Specify the filename when downloaded
             className="bg-white text-black px-4 py-2 rounded-md text-lg font-semibold hover:bg-gray-200 transition-colors duration-300"
           >
             Download CV
