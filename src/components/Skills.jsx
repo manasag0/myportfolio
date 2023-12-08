@@ -1,5 +1,5 @@
 import { DiHtml5, DiCss3, DiReact, DiMongodb, DiBootstrap } from 'react-icons/di';
-import { FaJs,FaGit,FaGithub ,FaNodeJs } from 'react-icons/fa';
+import { FaJs,FaGithub ,FaNodeJs } from 'react-icons/fa';
 import {SiTailwindcss,SiExpress} from 'react-icons/si';
 import { TbBrandVite,TbBrandNextjs,TbBrandTypescript } from "react-icons/tb";
 import { BsFiletypeSql } from "react-icons/bs";
