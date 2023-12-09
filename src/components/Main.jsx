@@ -19,12 +19,12 @@ function Main() {
         2000, // wait 1s before replacing "Mice" with "Hamsters"
         'a Coder',
         2000,
-        'a Tech enthuisest ',
+        'a Tech Enthusiast ',
         2000,
       ]}
       wrapper="span"
       speed={40}
-      style={{ fontSize: '1.5em', display: 'inline-block' }}
+      style={{ fontSize: '1.5em', paddingLeft:'5px', display: 'inline-block' }}
       repeat={Infinity}
     /></h2>
             <div className='flex w-full pt-10 max-w-[200px] justify-between'>
@@ -32,7 +32,9 @@ function Main() {
             <a href="https://github.com/manasag0" rel='noreferrer' target='_blank'><FaGithub  className='cursor-pointer' size={20} /> </a>
         <a href="https://www.linkedin.com/in/manasa-g-60434124a/"> <FaLinkedin className='cursor-pointer'size={20} /></a>
        <a href="https://twitter.com/mooonCode" target="_blank" rel="noopener noreferrer"> <FaTwitter  className='cursor-pointer' size={20}/></a>
+       <a href="#contact">
         <FaUser className='cursor-pointer'size={20} />
+        </a>
         </div>
         </div>
         </div>

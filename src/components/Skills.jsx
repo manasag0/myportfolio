@@ -8,11 +8,7 @@ import { BsFiletypeSql } from "react-icons/bs";
 const Skills = () => {
   return (
     <div id='skills' className='relative w-full min-h-screen bg-black'>
-      <img
-        src="https://wallup.net/wp-content/uploads/2016/02/238526-moss-ladders-blurred-depth_of_field-nature.jpg"
-        className="absolute inset-0 w-full h-full object-cover opacity-50"
-        alt=""
-      />
+
       <div className="inset-0 flex flex-col justify-center overflow-auto items-center text-white">
         <div className="max-w-4xl mx-auto p-6">
           <h1 className="text-4xl font-bold mb-4 text-center">Skills</h1>
@@ -57,7 +53,6 @@ const Skills = () => {
                 <li>Solidity Programming Language</li>         
               </ul>
             </div>
-
             <div className="text-center mt-8">
           <a
             href="src/Resume/ManasasResume.pdf"  // Replace with the actual path to your CV file
@@ -75,3 +70,5 @@ const Skills = () => {
 };
 
 export default Skills;
+
+

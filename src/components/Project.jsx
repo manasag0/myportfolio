@@ -18,7 +18,7 @@
 
 const Project = ({ img, title }) => {
   return (
-    <div className='relativeflex flex-col items-center justify-center h-auto w-full rounded-xl group hover:bg-gradient-to-r from-green-200 to-green-600'>
+    <div className='relative flex flex-col items-center justify-center h-auto w-full rounded-xl group hover:bg-gradient-to-r from-green-200 to-green-600'>
       <img src={img} alt="/" className='w-full h-auto rounded-xl group-hover:opacity-10' />
       <div className='hidden group-hover:flex flex-col items-center justify-center absolute inset-0'>
         <h3 className='text-2xl font-bold text-white tracking-wider text-center'>

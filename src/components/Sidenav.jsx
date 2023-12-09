@@ -44,11 +44,11 @@ function Sidenav() {
       }
     <div className='md:block hidden fixed top-[25%] z-10'>
       <div className='flex flex-col'>
-        <a  href="#main" className='rounded-full shadow-lg bg-white  m-2 p-4 cursor-pointer hover:scale-110 ease-in shadow-black duration-300 ' title='At home'><AiOutlineHome/></a >
-        <a  href="#about" className='rounded-full shadow-lg bg-white  m-2 p-4 cursor-pointer hover:scale-110 ease-in shadow-black duration-300 active:shadow-lg active:rounded' title='About Me'><AiOutlineUser/></a >
-        <a  href="#skills" className='rounded-full shadow-lg bg-white  m-2 p-4 cursor-pointer hover:scale-110 ease-in shadow-black duration-300' title='Skills and Technologies'><AiOutlineTool/></a >
-        <a  href="#projects" className='rounded-full shadow-lg bg-white  m-2 p-4 cursor-pointer hover:scale-110 ease-in shadow-black duration-300'title='Projects'><GrProjects/></a >
-        <a  href="#contact" className='rounded-full shadow-lg bg-white  m-2 p-4 cursor-pointer hover:scale-110 ease-in shadow-black duration-300' title='Contact Me'><AiOutlineMail/></a >
+        <a  href="#main" className='rounded-full shadow-lg bg-white  m-2 p-4 cursor-pointer hover:scale-110 ease-in shadow-black duration-300 ' title='At home'><AiOutlineHome size={20}/></a >
+        <a  href="#about" className='rounded-full shadow-lg bg-white  m-2 p-4 cursor-pointer hover:scale-110 ease-in shadow-black duration-300 active:shadow-lg active:rounded' title='About Me'><AiOutlineUser size={20}/></a >
+        <a  href="#skills" className='rounded-full shadow-lg bg-white  m-2 p-4 cursor-pointer hover:scale-110 ease-in shadow-black duration-300' title='Skills and Technologies'><AiOutlineTool size={20}/></a >
+        <a  href="#projects" className='rounded-full shadow-lg bg-white  m-2 p-4 cursor-pointer hover:scale-110 ease-in shadow-black duration-300'title='Projects'><GrProjects size={20}/></a >
+        <a  href="#contact" className='rounded-full shadow-lg bg-white  m-2 p-4 cursor-pointer hover:scale-110 ease-in shadow-black duration-300' title='Contact Me'><AiOutlineMail size={20}/></a >
 
       </div>
     </div>

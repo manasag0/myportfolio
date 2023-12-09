@@ -2,14 +2,8 @@
 
 const Contect = () => {
     return (
-        <div id='contact' className="relative">
-
-<img
-                src="https://images.pexels.com/photos/774813/pexels-photo-774813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                className="absolute inset-0 w-full h-full object-cover opacity-20"
-                alt=""
-            />
-        <div className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
+        <div id='contact' className="relative ">
+        <div className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 bg-black/30'>
 
             <h1 className='text-4xl text-center text-black'>Contect Me</h1>
             <form action="https://getform.io/f/280ddb2a-45d2-48de-8619-9e9e1fa1b36a" method="POST" encType='multipart/form-data'>
@@ -36,7 +30,7 @@ const Contect = () => {
                     <textarea className="border-2 rounded-lg p-3 border-black/50" name="textarea" id="" cols="" rows="6"></textarea>
                 </div>
                 <div className="flex justify-center">
-                    <button className="bg-black/50 mt-4 p-4 text-black rounded-md text-[20px]  md:w-auto  cursor-pointer ">Contact from here</button>
+                    <button className="bg-black/50 mt-4 p-3 rounded-md text-[20px]  md:w-auto  cursor-pointer hover:bg-white text-black active:hover:to-black">Send</button>
                 </div>
             </form>
         </div>
