@@ -3,7 +3,7 @@
 const Contect = () => {
     return (
         <div id='contact' className="relative bg-black/30">
-        <div className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 '>
+        <div className=' m-auto md:pl-20 p-4 py-16 '>
 
             <h1 className='text-4xl text-center text-black'>Contect Me</h1>
             <form action="https://getform.io/f/280ddb2a-45d2-48de-8619-9e9e1fa1b36a" method="POST" encType='multipart/form-data'>
